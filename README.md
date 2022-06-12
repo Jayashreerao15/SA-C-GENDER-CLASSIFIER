@@ -1,16 +1,28 @@
 # SA-C-GENDER-CLASSIFIER
 # Algorithm
-1.
-2.
-3.
-4.
+
+1.Import the necessary packages such as tensorflow, tensorflow hub, pandaa,matplotlib, and splitfloders.
+
+2.Create your dataset of male and female images.
+
+3.Using tensorflow.keras.preprocessing.image generate same image data for all the train and test images.
+
+4.Using tensorflow.keras.preprocessing preprocess the images into numbers for gender prediction.
+
+5.From tensorflow hub use B0 Feature vectors of EfficientNet models trained on Imagenet.
+
+6.Use fit() to train the model.
+
+7.Predict the gender of the image.
+
+8.Create a loss and accuracy graph for understanding the model learning rate.
 
 ## Program:
 ```
 /*
 Program to implement 
-Developed by   :Vincent isaac jeyaraj J
-RegisterNumber :212220230060  
+Developed by   : Jayashree Rao V
+RegisterNumber :212220230023
 */
 ```
 ```python
@@ -71,9 +83,16 @@ pd.DataFrame(history.history).plot()
 
 
 ## OUTPUT:
-```
+![Capture71](https://user-images.githubusercontent.com/75234588/173243903-8d4babef-48ec-4638-addd-4bb2f039c10c.PNG)
+![Capture72](https://user-images.githubusercontent.com/75234588/173243908-67eff571-e331-4ee8-a19b-ed1a35c95666.PNG)
+![Capture69](https://user-images.githubusercontent.com/75234588/173243911-a9ea482e-7ed7-45dd-a818-f0003974d67f.PNG)
+![Capture70](https://user-images.githubusercontent.com/75234588/173243915-97b3e7a9-137c-45f8-85c3-9facc6abd6a0.PNG)
+
+
+DEMO VIDEO YOUTUBE LINK:
 
 https://youtu.be/utg1uZz3l04
 
+## Result:
 
-```
+Thus, Gender Classification is implemented using Efficient Neural Nrtworks and the output is verified.
